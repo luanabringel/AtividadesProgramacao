@@ -1,0 +1,50 @@
+{
+  "dirname": null,
+  "full_resource": {
+    "dirname": null,
+    "files": [
+      {
+        "category": "public",
+        "content": "import re\nfrom pathlib import Path\n\nimport pytest\n\nARQUIVO = \"questoes.txt\"\n\n@pytest.fixture\ndef texto():\n    try:\n        return open(ARQUIVO).read()\n    except:\n        return \"\"\n\ndef test_ha_arquivo():\n    assert Path(ARQUIVO).exists()\n\ndef test_bash(texto):\n    assert re.search(r\"\\bbash\\b\", texto, flags=re.IGNORECASE)\n\ndef test_python(texto):\n    assert re.search(r\"\\bpython\\b\", texto, flags=re.IGNORECASE)\n\ndef test_mkdir(texto):\n    assert re.search(r\"\\bmkdir\\b\", texto, flags=re.IGNORECASE)\n\ndef test_cd(texto):\n    assert re.search(r\"\\bcd\\b\", texto, flags=re.IGNORECASE)\n\ndef test_ls(texto):\n    assert re.search(r\"\\bls\\b\", texto, flags=re.IGNORECASE)\n",
+        "mode": "ro",
+        "name": "test_.py"
+      },
+      {
+        "category": "public",
+        "content": "# Checkout e Commit em p1\n\nO objetivo desta atividade é simples: que você faça um ciclo\ncompleto de uma atividade, usando o site da disciplina e o\nferramental de linha de comando que usaremos para esse fim.\n\n## Instalação do `p1` e do `tst`\n\nPara instalar o `p1` e o `tst` em sua conta você precisa instalar\no pacote `p1ufcg` que está disponível no\n[PyPI](https://pypi.org). Para isso, você precisa executar o\nseguinte comando em seu _shell_:\n\n```bash\npip install p1ufcg\n```\n\nPara testar se você instalou a versão mais recente do `p1` e do\n`tst`, você pode verificar as versões de cada um deles com os\ncomandos `p1 -v` e `tst -v`. As versões mínimas aceitáveis de\ncada um deles são, respectivamente: `0.2.6` e `0.16.0`.\n\nSe a versão de alguma das duas for menor que essas, faça uma\natualização do pacote com o comando abaixo:\n\n```bash\npip install --upgrade p1ufcg\n```\n\n## `login`\n\nO passo seguinte é fazer o login via do `p1` no site da\ndisciplina. Para isso, antes você precisa fazer o login através\ndo _browser_, no site da disciplina. Em seguida, no _shell_, use\no comando:\n\n```bash\np1 login\n```\n\nO comando acima deve mostrar uma URL para o login e também deve\noferecer para abrir um _browser_ automaticamente na URL. Aceite e\nespere o browser mostrar uma página de autorização do login.\nAutorize o login, clicando no botão apropriado. Isso deve\nconcluir o processo de login de `p1`. Confira no terminal se o\nseu email foi devidamente coletado e se o login foi autorizado.\n\n> Se você já tinha uma instalação anterior de `p1` é possível que\n> a nova versão não encontre os dados do novo site na\n> configuração. Se isso ocorrer, renomeie o diretório de\n> configuração antigo de `p1` e execute o `p1 login` novamente\n> (isso deve criar um novo diretório de configuração). Para isso,\n> use o comando `mv ~/.p1 ~/.p1.old`.\n\n## `checkout`\n\nUma vez concluído o processo de login com sucesso, você pode\nfazer o `checkout` das atividades. Para isso, use o comando `p1\ncheckout`. O comando é interativo, logo, dispensa mais\nargumentos. Ele deve buscar no site as atividades abertas e\ndisponíveis para fazer o download e a instalação no seu diretório\n`~/p1`.\n\nUma vez escolhida a atividade, ela será gravada em um\nsubdiretório de `~/p1`, de acordo com o identificador da\natividade.\n\n> **Observação** Por ora, a modificação do diretório da atividade\n> está desabilitado.\n\n## Responda à atividade\n\n1. No _shell_, vá para o diretório da atividade, dentro de `~/p1`\n   (talvez dentro de algum outro subdiretório).\n2. Liste o conteúdo do diretório. Você deve ver vários arquivos.\n   Um deles é o `questoes.txt` que é o arquivo em que você deve\n   trabalhar.\n3. Abra o arquivo `questoes.txt` com algum editor de textos de\n   terminal e responda às perguntas nele contidas, corretamente.\n4. A atividade inclui testes automáticos. Para executá-los,\n   apenas digite o comando `tst` no _shell_. Se as questões\n   tiverem sido respondidas corretamente (de acordo com teste), a\n   saída do `tst` indicará isso imprimindo um ponto `.` para cada\n   teste existente.\n5. Corrija sua resposta até que o `tst` indique que a resposta\n   está correta.\n\n> Os testes são, obviamente, mera verificação textual do conteúdo\n> do arquivo. Se você executar os testes antes de alterar o\n> arquivo verá que um teste ainda passa que é o que verifica\n> apenas se um arquivo com aquele nome dado existe. Observe ainda\n> que se você trocar as respostas entre as perguntas, os testes\n> ainda vão passar (e as respostas estarão, tecnicamente,\n> erradas).  Isso mostra uma limitação intrínsecas de testes\n> automáticos que veremos mais adiante.\n\n## `commit`\n\nQuando sua resposta for aceita pelos testes fornecidos, você pode\nfazer o _commit_ do arquivo (enviar o arquivo para o site). Para\nisso, execute o seguinte comando no _shell_ (no diretório da\natividade, claro).\n\n```bash\np1 commit questoes.txt\n```\n\nSe o commit for bem sucedido, o comando deve indicar isso. Se o\n_commit_ falhar, entre em contato com os professores.\n\n\n## Confira sua resposta e a entregue\n\nNo _browser_, retorne à página da atividade no site da\ndisciplina. No final da página, você deve identificar o arquivo\nde respostas.\n\nConfira se está tudo ok. Se estiver, você pode concluir a\natividade, clicando no botão de envio da atividade.\n\n\n## Isso é tudo\n\nIsso conclui todo o processo típico de atividades da disciplina.\nObviamente que, ao invés de responder a questões textuais, você\ndeverá escrever programas.\n",
+        "mode": "ro",
+        "name": "README.md"
+      },
+      {
+        "category": "public",
+        "content": "1. Qual linguagem de programação usaremos na disciplina?\n2. Qual linguagem de _shell_ usaremos na disciplina?\n3. Qual o comando _shell_ para criar um diretório?\n4. Qual o comando _shell_ para mudar de diretório?\n5. Qual o comando _shell_ para listar o conteúdo de um diretório?\n",
+        "mode": "rw",
+        "name": "questoes.txt"
+      },
+      {
+        "content": "{\n  \"tests\": [],\n  \"title\": \"Checkout e Commit\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      },
+      {
+        "_at": "2022-05-12T12:27:55Z",
+        "_author": "luana.leite@ccc.ufcg.edu.br",
+        "_ip": "150.165.42.190",
+        "_revision": 1,
+        "category": "public",
+        "content": "1. Qual linguagem de programação usaremos na disciplina? python\n2. Qual linguagem de _shell_ usaremos na disciplina? bash\n3. Qual o comando _shell_ para criar um diretório? mkdir\n4. Qual o comando _shell_ para mudar de diretório? cd\n5. Qual o comando _shell_ para listar o conteúdo de um diretório? ls\n\n",
+        "hash": "cd603965f36cdb857a900b6338efaa65a34eb77c",
+        "mode": "rw",
+        "name": "questoes.txt",
+        "op": "add"
+      }
+    ],
+    "iid": 5236534213083136,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 5236534213083136,
+  "key": "5236534213083136",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

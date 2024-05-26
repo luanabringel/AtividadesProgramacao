@@ -1,0 +1,32 @@
+{
+  "dirname": "u6/conta_diferentes",
+  "full_resource": {
+    "dirname": "u6/conta_diferentes",
+    "files": [
+      {
+        "category": "public",
+        "content": "- type: script\n  script: python3 public_tests.py {}\n",
+        "mode": "ro",
+        "name": "public_tests.yaml"
+      },
+      {
+        "category": "public",
+        "content": "import unittest\nimport sys\n\nmodule = sys.argv[-1].split(\".py\")[0]\n\nclass PublicTests(unittest.TestCase):\n\n    @classmethod\n    def setUpClass(cls):\n        global conta_diferentes\n        undertest = __import__(module)\n        conta_diferentes = getattr(undertest, 'conta_diferentes', None)\n\n    def test_basico1(self):\n       assert conta_diferentes('aaa', 'bbb') == 3\n\n    def test_basico2(self):\n       assert conta_diferentes('oi', 'ola') == 1\n\n    def test_basico3(self):\n       assert conta_diferentes('ola', 'oi') == 1\n\nif __name__ == '__main__':\n    loader = unittest.TestLoader()\n    runner = unittest.TextTestRunner()\n    runner.run(loader.loadTestsFromModule(sys.modules[__name__]))\n",
+        "mode": "r",
+        "name": "public_tests.py"
+      },
+      {
+        "content": "{\n  \"tests\": [],\n  \"title\": \"Conta diferentes\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 5513498232619008,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 5513498232619008,
+  "key": "5513498232619008",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

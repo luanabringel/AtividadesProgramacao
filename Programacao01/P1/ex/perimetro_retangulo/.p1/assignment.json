@@ -1,0 +1,26 @@
+{
+  "dirname": "ex/perimetro_retangulo",
+  "full_resource": {
+    "dirname": "ex/perimetro_retangulo",
+    "files": [
+      {
+        "category": "public",
+        "content": "- input: |\n    200\n    300\n  output: |\n    O perímetro resultante (em cm) é 100.00.\n\n",
+        "mode": "ro",
+        "name": "public_tests.yaml"
+      },
+      {
+        "content": "{\n  \"tests\": [],\n  \"title\": \"Perímetro de Retangulo\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 6460793434406912,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 6460793434406912,
+  "key": "6460793434406912",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

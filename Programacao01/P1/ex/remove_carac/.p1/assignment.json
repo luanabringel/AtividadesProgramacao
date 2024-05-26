@@ -1,0 +1,26 @@
+{
+  "dirname": "ex/remove_carac",
+  "full_resource": {
+    "dirname": "ex/remove_carac",
+    "files": [
+      {
+        "category": "public",
+        "content": "from undertst import remove_caracteres\n\ndef test_exemplo():\n    frase = \"Apalavrados\"\n    assert remove_caracteres(frase, \"sodA\") == \"palavra\"\n",
+        "mode": "r",
+        "name": "test_public.py"
+      },
+      {
+        "content": "{\n  \"ignore\": [\n    \"test_public.py\",\n    \"test_acceptance.py\"\n  ],\n  \"tests\": [],\n  \"title\": \"Remove Caracteres\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 4776163144630272,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 4776163144630272,
+  "key": "4776163144630272",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

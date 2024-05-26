@@ -1,0 +1,32 @@
+{
+  "dirname": "u6/vogais",
+  "full_resource": {
+    "dirname": "u6/vogais",
+    "files": [
+      {
+        "category": "public",
+        "content": "- type: script\n  script: python public_tests.py {}\n\n",
+        "mode": "ro",
+        "name": "public_tests.yaml"
+      },
+      {
+        "category": "public",
+        "content": "import unittest\nimport sys\n\nundertest = __import__(sys.argv[-1].split(\".py\")[0])\nvogais_primeiro = getattr(undertest, 'vogais_primeiro', None)\n\nclass PublicTests(unittest.TestCase):\n\n    def test_exemplo_1(self):\n        assert vogais_primeiro(\"exemplo\") == \"eeoxmpl\"\n    \n    def test_exemplo_2(self):\n        assert vogais_primeiro(\"Programacao 1\") == \"oaaaoPrgrmc 1\"\n    \nif __name__ == '__main__':\n    loader = unittest.TestLoader()\n    runner = unittest.TextTestRunner()\n    runner.run(loader.loadTestsFromModule(sys.modules[__name__]))\n",
+        "mode": "r",
+        "name": "public_tests.py"
+      },
+      {
+        "content": "{\n  \"tests\": [],\n  \"title\": \"Vogais Primeiro\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 6036757466316800,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 6036757466316800,
+  "key": "6036757466316800",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

@@ -1,0 +1,10 @@
+- input: |
+    10.0
+    8.0
+    6.0
+    20
+    40
+  name: exemplo
+  output: |
+    Média Final: 7.6
+

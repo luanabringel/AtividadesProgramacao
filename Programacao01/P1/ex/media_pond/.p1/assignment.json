@@ -1,0 +1,26 @@
+{
+  "dirname": "ex/media_pond",
+  "full_resource": {
+    "dirname": "ex/media_pond",
+    "files": [
+      {
+        "category": "public",
+        "content": "- input: |\n    10.0\n    8.0\n    6.0\n    20\n    40\n  name: exemplo\n  output: |\n    Média Final: 7.6\n\n",
+        "mode": "ro",
+        "name": "public_tests.yaml"
+      },
+      {
+        "content": "{\n  \"tests\": [],\n  \"title\": \"Média ponderada\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 4512025793265664,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 4512025793265664,
+  "key": "4512025793265664",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

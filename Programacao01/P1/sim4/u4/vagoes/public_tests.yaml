@@ -1,0 +1,14 @@
+- input: |
+    10
+    15 6 9 16 30 35
+  name: exemplo
+  output: |
+    1
+
+- input: |
+    5
+    15 9 8 7 35
+  name: exemplo2
+  output: |
+    2
+

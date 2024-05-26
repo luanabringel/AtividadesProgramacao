@@ -1,0 +1,39 @@
+{
+  "dirname": "ex/tiro_alvo",
+  "full_resource": {
+    "dirname": "ex/tiro_alvo",
+    "files": [
+      {
+        "category": "public",
+        "content": "- input: |\n    85 45\n    35.0 40.0\n    -20 15\n    215 181\n  output: |\n    96.18cm\n    53.15cm\n    25.00cm\n    --\n    num disparos: 3\n    distancia media: 58.11cm\n",
+        "mode": "ro",
+        "name": "public_tests.yaml"
+      },
+      {
+        "content": "{\n  \"tests\": [],\n  \"title\": \"Tiro ao Alvo\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      },
+      {
+        "_at": "2022-07-27T00:15:53Z",
+        "_author": "luana.leite@ccc.ufcg.edu.br",
+        "_ip": "45.229.174.59",
+        "_revision": 1,
+        "answer": true,
+        "category": "public",
+        "content": "soma = 0\nchances = 0\nwhile True:\n    alvo = input().split()\n    distancia = ((float(alvo[0]))**2 + (float(alvo[1]))**2)**0.5\n    if distancia > 200.0\n        break\n    soma += distancia\n    chances += 1\n    print(f\"{distancia:.2}\")\n\nprint(\"---\")\nprint(f\"num disparos: {chances}\")\n\nmedia = soma/chances\nprint(f\"distancia media: {media:.2f}cm\")\n",
+        "hash": "7052a5b96afeb30622376fb31ad4c676f997c9eb",
+        "mode": "rw",
+        "name": "tiro.py",
+        "op": "add"
+      }
+    ],
+    "iid": 5680302347255808,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 5680302347255808,
+  "key": "5680302347255808",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

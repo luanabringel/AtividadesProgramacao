@@ -1,0 +1,39 @@
+{
+  "dirname": "ex/limite_elevador",
+  "full_resource": {
+    "dirname": "ex/limite_elevador",
+    "files": [
+      {
+        "category": "public",
+        "content": "- input: |\n    0.5\n    a 100.00\n    a 50.00\n    c 10.00\n    c 2.00\n  output: |\n    Limite atingido.\n    Elevador saiu com 3 pessoas e 160.00 kg.\n\n- input: |\n    0.7\n    a 160.32\n    a 30.89\n    a 69.90\n    c 78.90\n    a 120.80\n    a 300.00\n  output: |\n    Limite atingido.\n    Elevador saiu com 5 pessoas e 460.81 kg.\n\n",
+        "mode": "ro",
+        "name": "public_tests.yaml"
+      },
+      {
+        "content": "{\n  \"tests\": [],\n  \"title\": \"Limite Elevador\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      },
+      {
+        "_at": "2022-07-27T00:09:44Z",
+        "_author": "luana.leite@ccc.ufcg.edu.br",
+        "_ip": "45.229.174.59",
+        "_revision": 1,
+        "answer": true,
+        "category": "public",
+        "content": "razao_maxima = float(input())\n\ncrianca = 0\nadulto = 0\npeso_total = 0\npessoas = 0\ncondicao = False\nwhile True:\n    entrada = input().split()\n    peso = float(entrada[1])\n\n    if entrada[0] == 'c':\n        crianca += 1\n        pessoas += 1\n    elif entrada[0] == 'a':\n        adulto += 1\n        pessoas += 1\n        condicao = True\n\n    if not condicao:\n        break\n\n    if crianca / adulto > razao_maxima or peso_total > 700:\n        break\n\n    peso_total += peso\n\nprint('Limite atingido.')\nprint(f'Elevador saiu com {pessoas - 1} pessoas e {peso_total:.2f} kg.')\n",
+        "hash": "491461e5ae236d5c67dfe0047069624dab3f13fd",
+        "mode": "rw",
+        "name": "limite.py",
+        "op": "add"
+      }
+    ],
+    "iid": 4837969938612224,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 4837969938612224,
+  "key": "4837969938612224",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

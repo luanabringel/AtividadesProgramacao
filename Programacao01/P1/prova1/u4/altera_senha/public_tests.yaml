@@ -1,0 +1,13 @@
+- input: |
+    pr0gL
+    Progr#m0
+  output: |
+    'r' coincidente na posição 2
+    'g' coincidente na posição 4
+    Senha não alterada
+
+- input: |
+    P1th0n
+    J0v0
+  output: |
+    Senha alterada com sucesso

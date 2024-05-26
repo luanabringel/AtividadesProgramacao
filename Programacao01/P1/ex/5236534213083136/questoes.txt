@@ -1,0 +1,6 @@
+1. Qual linguagem de programação usaremos na disciplina? python
+2. Qual linguagem de _shell_ usaremos na disciplina? bash
+3. Qual o comando _shell_ para criar um diretório? mkdir
+4. Qual o comando _shell_ para mudar de diretório? cd
+5. Qual o comando _shell_ para listar o conteúdo de um diretório? ls
+

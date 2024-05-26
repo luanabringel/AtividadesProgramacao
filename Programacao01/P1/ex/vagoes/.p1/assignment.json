@@ -1,0 +1,26 @@
+{
+  "dirname": "ex/vagoes",
+  "full_resource": {
+    "dirname": "ex/vagoes",
+    "files": [
+      {
+        "category": "public",
+        "content": "- input: |\n    10\n    15 6 9 16 30 35\n  name: exemplo\n  output: |\n    1\n\n- input: |\n    5\n    15 9 8 7 35\n  name: exemplo2\n  output: |\n    2\n\n",
+        "mode": "ro",
+        "name": "public_tests.yaml"
+      },
+      {
+        "content": "{\n  \"tests\": [],\n  \"title\": \"Vagões\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 4955891151405056,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 4955891151405056,
+  "key": "4955891151405056",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

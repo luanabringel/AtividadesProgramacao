@@ -1,0 +1,26 @@
+{
+  "dirname": "u4/letras_dobradas",
+  "full_resource": {
+    "dirname": "u4/letras_dobradas",
+    "files": [
+      {
+        "category": "public",
+        "content": "- input: |\n    5\n    pizza\n    atum\n    coordenacao\n    martelo\n    costela\n  output: |\n    2 palavra(s) com letras dobradas:\n    pizza\n    coordenacao\n    ---\n    3 palavra(s) sem letras dobradas:\n    atum\n    martelo\n    costela\n\n",
+        "mode": "ro",
+        "name": "public_tests.yaml"
+      },
+      {
+        "content": "{\n  \"tests\": [],\n  \"title\": \"Letras Dobradas\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 5312237205979136,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 5312237205979136,
+  "key": "5312237205979136",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

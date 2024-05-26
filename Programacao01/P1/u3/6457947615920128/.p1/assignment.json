@@ -1,0 +1,32 @@
+{
+  "dirname": "u3/{}",
+  "full_resource": {
+    "dirname": "u3/{}",
+    "files": [
+      {
+        "category": "public",
+        "content": "print(\"responda no arquivo funcoes.md\")\n",
+        "mode": "ro",
+        "name": "sol.py"
+      },
+      {
+        "category": "public",
+        "content": "# Conceitos de Funções\n\nEstude o conceito de _função_ em Python. Crie o arquivo\n`funcoes.md` (use _markdown_ para escrevê-lo) e, nele,\nresponda às perguntas abaixo.\n\n1. O que é uma função?\n2. O que é uma função pura?\n3. O que são efeitos colaterais?\n4. O que é uma expressão de invocação de funções em Python?\n5. Explique o que é transparência referencial?\n6. Dê a sintaxe de definição de funções de Python.\n7. O que são parâmetros formais?\n8. Como se usa e para quê serve o comando `return`?\n\n> Esta questão não tem testes automáticos. Apenas faça\n> o commit do arquivo.\n",
+        "mode": "ro",
+        "name": "README.md"
+      },
+      {
+        "content": "{\n  \"tests\": [],\n  \"extensions\": [\n    \"funcoes.md\"\n  ],\n  \"title\": \"Conceitos de Funções\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 6457947615920128,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 6457947615920128,
+  "key": "6457947615920128",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

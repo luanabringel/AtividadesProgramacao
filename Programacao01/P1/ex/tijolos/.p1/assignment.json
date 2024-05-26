@@ -1,0 +1,26 @@
+{
+  "dirname": "ex/tijolos",
+  "full_resource": {
+    "dirname": "ex/tijolos",
+    "files": [
+      {
+        "category": "public",
+        "content": "- input: |\n    0.45\n    0.20\n    0.30\n    3\n    120\n  output: |\n    Digite o preço da unidade do tijolo (Em reais): Digite a altura do tijolo (Em metros): Digite o comprimento do tijolo (Em metros): Digite a altura das paredes (Em metros): Digite o comprimento das paredes (Em metros): O número total de tijolos é 6000.0 e o orçamento final é de R$ 2700.0\n\n",
+        "mode": "ro",
+        "name": "public_tests.yaml"
+      },
+      {
+        "content": "{\n  \"tests\": [],\n  \"title\": \"Orçamento Construção\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 6236696486084608,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 6236696486084608,
+  "key": "6236696486084608",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

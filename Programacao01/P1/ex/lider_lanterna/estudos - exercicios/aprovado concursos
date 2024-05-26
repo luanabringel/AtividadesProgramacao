@@ -1,0 +1,12 @@
+qnt_aprovados = 0
+while True:
+    qnt_portugues = int(input())
+    if qnt_portugues < 0:
+        break
+    qnt_matematica = int(input())
+    redacao = float(input())
+    if qnt_portugues >= (80/100)*50:
+        if qnt_matematica >= (60/100)*35:
+            if redacao >= 7:
+                qnt_aprovados += 1
+    print(qnt_aprovados)

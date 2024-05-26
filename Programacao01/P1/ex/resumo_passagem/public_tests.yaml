@@ -1,0 +1,14 @@
+- input: |
+    1256BL
+    10:43
+    12A
+    B
+    70.00
+    100.00
+  output: |
+    ### Cartão de Embarque ###
+    Identificador do voo: 1256BL
+    Horário: 10:43
+    Assento: 12A
+    Portão: B
+    Total de Imposto: 30.0%

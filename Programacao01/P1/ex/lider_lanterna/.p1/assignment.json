@@ -1,0 +1,26 @@
+{
+  "dirname": "ex/lider_lanterna",
+  "full_resource": {
+    "dirname": "ex/lider_lanterna",
+    "files": [
+      {
+        "category": "public",
+        "content": "- input: |\n    América Botafogo Campinense Flamengo Grêmio Palmeiras\n    12 7 14 15 11 4\n    3\n    Botafogo 3x2 América\n    Campinense 3x1 Palmeiras\n    Flamengo 1x1 Grêmio\n  output: |\n    Líder: Campinense\n    Lanterna: Palmeiras\n\n",
+        "mode": "ro",
+        "name": "public_tests.yaml"
+      },
+      {
+        "content": "{\n  \"tests\": [],\n  \"title\": \"Líder e Lanterna\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 5570800612540416,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 5570800612540416,
+  "key": "5570800612540416",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

@@ -1,0 +1,30 @@
+- input: |
+    tv
+    casebre
+    rede
+    petisco
+    ---
+    abacate
+    renda
+    ---
+    anta
+    cabide
+    olhar
+    ---
+    bicicleta
+    camisola
+    macaco
+    canavial
+    ---
+    fim
+  output: |
+    Conjunto 4: bicicleta (9 letras)
+
+- input: |
+    casa
+    bola
+    ---
+    ---
+    fim
+  output: |
+    Conjunto 1: casa (4 letras)

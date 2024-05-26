@@ -1,0 +1,11 @@
+- input: |
+    América Botafogo Campinense Flamengo Grêmio Palmeiras
+    12 7 14 15 11 4
+    3
+    Botafogo 3x2 América
+    Campinense 3x1 Palmeiras
+    Flamengo 1x1 Grêmio
+  output: |
+    Líder: Campinense
+    Lanterna: Palmeiras
+

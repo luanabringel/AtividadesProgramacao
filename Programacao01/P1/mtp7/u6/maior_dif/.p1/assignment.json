@@ -1,0 +1,26 @@
+{
+  "dirname": "u6/maior_dif",
+  "full_resource": {
+    "dirname": "u6/maior_dif",
+    "files": [
+      {
+        "category": "public",
+        "content": "from undertst import adiciona_maior\n\ndef test_basico():\n    l1 = [2, 6, 5, 4, 0, 1]\n    assert adiciona_maior(l1) == None\n    assert l1 == [6, 10, 9, 8, 4, 5]\n\n\n",
+        "mode": "r",
+        "name": "test_public.py"
+      },
+      {
+        "content": "{\n  \"ignore\": [\n    \"test_public.py\",\n    \"test_acceptance.py\"\n  ],\n  \"tests\": [],\n  \"title\": \"Adiciona a Maior Diferença Entre Vizinhos\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 6279777239433216,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 6279777239433216,
+  "key": "6279777239433216",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

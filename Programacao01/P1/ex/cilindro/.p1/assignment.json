@@ -1,0 +1,39 @@
+{
+  "dirname": "ex/cilindro",
+  "full_resource": {
+    "dirname": "ex/cilindro",
+    "files": [
+      {
+        "category": "public",
+        "content": "- input: |\n    2.5\n    6.0\n  output: |\n    Cálculo da Superfície de um Cilindro\n    ---\n    Medida do diâmetro? Medida da altura? ---\n    Área calculada: 56.94\n\n",
+        "mode": "ro",
+        "name": "public_tests.yaml"
+      },
+      {
+        "content": "{\n  \"tests\": [],\n  \"title\": \"Área do Cilindro\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      },
+      {
+        "_at": "2022-05-23T22:44:51Z",
+        "_author": "luana.leite@ccc.ufcg.edu.br",
+        "_ip": "45.229.174.59",
+        "_revision": 1,
+        "answer": true,
+        "category": "public",
+        "content": "print(\"Cálculo da Superfície de um Cilindro\")\n\nprint(\"---\")\ndiametro = float(input(\"Medida do diâmetro? \"))\naltura = float(input(\"Medida da altura? \"))\nprint(\"---\")\n\nraio = diametro/2\narea_lateral = 2 * 3.1415 * raio * altura\narea_base = 3.1415 * (raio **2)\narea_total = area_lateral + (2 * area_base)\n\nprint(f\"Área calculada: {area_total:.2f}\")\n\n",
+        "hash": "8eef1f6c7bc35e4741ccfcb3dd478fb26ca7de1c",
+        "mode": "rw",
+        "name": "area_cilindro.py",
+        "op": "add"
+      }
+    ],
+    "iid": 5686099798130688,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 5686099798130688,
+  "key": "5686099798130688",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

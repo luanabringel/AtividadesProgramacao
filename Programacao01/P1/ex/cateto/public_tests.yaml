@@ -1,0 +1,18 @@
+- input: |
+    15.0
+    9
+  name: exemplo
+  output: |
+    hipotenusa? cateto? hipotenusa: 15.00
+    cateto 1: 9.00
+    cateto 2: 12.00
+
+- input: |
+    13.0
+    12.0
+  name: exemplo
+  output: |
+    hipotenusa? cateto? hipotenusa: 13.00
+    cateto 1: 12.00
+    cateto 2: 5.00
+

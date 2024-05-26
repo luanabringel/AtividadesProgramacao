@@ -1,0 +1,11 @@
+- input: |
+    Maria
+    Silva
+  output: |
+    Nome? Sobrenome? Nome completo: Maria Silva
+
+- input: |
+    Maria
+    da Silva Santos
+  output: |
+    Nome? Sobrenome? Nome completo: Maria da Silva Santos

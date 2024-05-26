@@ -1,0 +1,20 @@
+- input: |
+    1
+    2
+    3
+    fim
+
+  output: |
+    pares = 1
+    ímpares = 2
+    
+- input: |
+    23
+    32
+    41
+    8
+    fim
+
+  output: |
+    pares = 2
+    ímpares = 2

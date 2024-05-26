@@ -1,0 +1,26 @@
+{
+  "dirname": "ex/ingressos",
+  "full_resource": {
+    "dirname": "ex/ingressos",
+    "files": [
+      {
+        "category": "public",
+        "content": "- input: |\n    2\n    3\n    12\n  output: |\n    Total: R$ 42.00\n",
+        "mode": "ro",
+        "name": "public_tests.yaml"
+      },
+      {
+        "content": "{\n  \"tests\": [],\n  \"title\": \"Calcula ingressos do cinema\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 6424971611996160,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 6424971611996160,
+  "key": "6424971611996160",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

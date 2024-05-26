@@ -1,0 +1,14 @@
+- input: |
+    jonas
+    jairo
+    marcos
+  output: |
+    jonas (2)
+
+- input: |
+    mateus
+    jonas
+    adriano
+  output: |
+    adriano (1)
+

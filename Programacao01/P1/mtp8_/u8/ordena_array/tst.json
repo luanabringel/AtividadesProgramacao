@@ -1,0 +1,8 @@
+{
+  "ignore": [
+    "test_public.py",
+    "test_acceptance.py"
+  ],
+  "tests": [],
+  "title": "Ordena Tipos (array)"
+}

@@ -1,0 +1,39 @@
+{
+  "dirname": "",
+  "full_resource": {
+    "dirname": "",
+    "files": [
+      {
+        "category": "public",
+        "content": "- input: |\n    Maria\n    Silva\n  output: |\n    Nome? Sobrenome? Nome completo: Maria Silva\n\n- input: |\n    Maria\n    da Silva Santos\n  output: |\n    Nome? Sobrenome? Nome completo: Maria da Silva Santos\n",
+        "mode": "ro",
+        "name": "public_tests.yaml"
+      },
+      {
+        "content": "{\n  \"tests\": [],\n  \"title\": \"Nome Completo\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      },
+      {
+        "_at": "2022-05-19T11:31:42Z",
+        "_author": "luana.leite@ccc.ufcg.edu.br",
+        "_ip": "150.165.42.190",
+        "_revision": 1,
+        "answer": true,
+        "category": "public",
+        "content": "nome = input(\"Digite seu primeiro nome: \")\n\nsobrenome = input(\"Digite seu sobrenome: \")\n\nprint(\"Nome completo: \", nome, sobrenome)\n\n",
+        "hash": "579090ad0e9ab333632bb82d4701cc67941c0697",
+        "mode": "rw",
+        "name": "nome_completo.py",
+        "op": "add"
+      }
+    ],
+    "iid": 5877465874432000,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 5877465874432000,
+  "key": "5877465874432000",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

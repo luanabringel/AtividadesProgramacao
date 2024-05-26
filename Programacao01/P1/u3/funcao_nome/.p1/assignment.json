@@ -1,0 +1,32 @@
+{
+  "dirname": "u3/funcao_nome",
+  "full_resource": {
+    "dirname": "u3/funcao_nome",
+    "files": [
+      {
+        "category": "public",
+        "content": "from undertst import hello_arg\n\ndef test_1():\n    msg_lower = hello_arg(\"prog1\").lower()\n    assert \"hello\" in msg_lower\n    assert \"prog1\" in msg_lower\n\ndef test_2():\n    msg_lower = hello_arg(\"Maria\").lower()\n    assert \"hello\" in msg_lower\n    assert \"maria\" in msg_lower\n",
+        "mode": "ro",
+        "name": "test_.py"
+      },
+      {
+        "category": "public",
+        "content": "# Função _Hello, nome!_\n\nEscreva a função `hello_arg`. A função deve ser _pura_\ne deve apenas retornar uma string com uma mensagem no\nformato `Hello, nome!`, onde `nome` é o nome passado\ncomo argumento para a função. Por exemplo, se a função\nfor invocada com `hello_arg(\"prog1\")` a função deve\nretornar a mensagem `Hello, prog1!`.\n\n## Importante\n\n- a função precisa ser nomeada exatamente como indicado:\n  `hello_arg`; se não for nomeada assim, os testes\n  automáticos não funcionarão;\n- a função não deve ter efeito colateral (não deve ler\n  nada da entrada, não deve escrever nada na saída e\n  não deve modificar dados na memória)\n- a mensagem deve ser o mais parecida possível ao\n  formato indicado; os testes são flexíveis, mas você\n  deve se acostumar a testes estritos.\n- uma forma de entender melhor como deve funcionar a\n  função é dar uma olhada nos testes fornecidos;\n- para rodar os testes automáticos, use o comando `pytest`\n  depois de ter criado o arquivo com sua resposta nele;\n",
+        "mode": "ro",
+        "name": "README.md"
+      },
+      {
+        "content": "{\n  \"tests\": [],\n  \"title\": \"Função Hello, Nome!\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 4942047498731520,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 4942047498731520,
+  "key": "4942047498731520",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

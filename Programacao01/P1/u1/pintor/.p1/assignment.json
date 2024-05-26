@@ -1,0 +1,26 @@
+{
+  "dirname": "u1/pintor",
+  "full_resource": {
+    "dirname": "u1/pintor",
+    "files": [
+      {
+        "category": "public",
+        "content": "- input: |\n    2\n    5.0\n  name: exemplo\n  output: |\n    R$ 200.00\n\n",
+        "mode": "ro",
+        "name": "public_tests.yaml"
+      },
+      {
+        "content": "{\n  \"tests\": [],\n  \"title\": \"Pintor\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 5890136967479296,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 5890136967479296,
+  "key": "5890136967479296",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

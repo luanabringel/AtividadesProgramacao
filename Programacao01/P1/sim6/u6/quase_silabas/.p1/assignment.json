@@ -1,0 +1,32 @@
+{
+  "dirname": "u6/quase_silabas",
+  "full_resource": {
+    "dirname": "u6/quase_silabas",
+    "files": [
+      {
+        "category": "public",
+        "content": "import unittest\nimport sys\n\nmodule = sys.argv[-1].split(\".py\")[0]\n\nclass PublicTests(unittest.TestCase):\n\n    @classmethod\n    def setUpClass(cls):\n        global quase_fonemas\n        undertest = __import__(module)\n        quase_fonemas = getattr(undertest, 'quase_fonemas', None)\n\n    def test_exemplo(self):\n        assert quase_fonemas(\"computador\") == ['co', 'pu', 'ta', 'do']\n        assert quase_fonemas(\"exemplo\") == ['xe', 'lo']\n        assert quase_fonemas(\"arara\") == ['ra', 'ra']\n\nif __name__ == '__main__':\n    loader = unittest.TestLoader()\n    runner = unittest.TextTestRunner()\n    runner.run(loader.loadTestsFromModule(sys.modules[__name__]))\n",
+        "mode": "r",
+        "name": "public_tests.py"
+      },
+      {
+        "category": "public",
+        "content": "- type: script\n  script: python public_tests.py {}\n\n",
+        "mode": "ro",
+        "name": "public_tests.yaml"
+      },
+      {
+        "content": "{\n  \"ignore\": [\n    \"acceptance_tests.py\",\n    \"public_tests.py\"\n  ],\n  \"tests\": [],\n  \"title\": \"Quase Fonemas\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 5028050708201472,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 5028050708201472,
+  "key": "5028050708201472",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

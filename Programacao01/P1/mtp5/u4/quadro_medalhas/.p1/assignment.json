@@ -1,0 +1,26 @@
+{
+  "dirname": "u4/quadro_medalhas",
+  "full_resource": {
+    "dirname": "u4/quadro_medalhas",
+    "files": [
+      {
+        "category": "public",
+        "content": "- input: |\n    1 1 1 1 1 0 2 2 0 0\n    1 0 2 1 0 0 0\n  output: |\n    italia\n\n- input: |\n    0 0 1 2 2 2\n    0 0 1 2 2 2\n  output: |\n    empate\n\n",
+        "mode": "ro",
+        "name": "public_tests.yaml"
+      },
+      {
+        "content": "{\n  \"tests\": [],\n  \"title\": \"Quadro de Medalhas\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 4652652132564992,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 4652652132564992,
+  "key": "4652652132564992",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

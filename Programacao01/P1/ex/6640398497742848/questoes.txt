@@ -1,0 +1,12 @@
+Use uma única palavra para cada definição abaixo:
+
+1. Conjunto de regras que determinam quais sentenças e quais programas estão corretamente escritos e podem ter, portanto, significados associados.
+Sintaxe
+2. Conjunto de regras que determinam como as sentenças de um programa devem ser interpretadas e executadas. Define, portanto, o significado dos programas.
+Semântica
+3. Nome dado a uma palavra (ou token) em um programa que representa um valor específico.
+Literal
+4. Nome dado a uma sentença escrita na linguagem que combina literais, variáveis, operadores e funções, que expressa uma computação ou cálculo e que, quando avaliada, produz um novo valor.
+Expressão
+5. Nome dado a um comando da linguagem de programação que determina que uma expressão seja avaliada, que o valor resultante seja armazenado númemória e que seja associado a um nome para uso posterior no processo.
+Atribuição

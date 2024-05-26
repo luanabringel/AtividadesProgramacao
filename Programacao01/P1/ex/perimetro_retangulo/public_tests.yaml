@@ -1,0 +1,6 @@
+- input: |
+    200
+    300
+  output: |
+    O perímetro resultante (em cm) é 100.00.
+

@@ -1,0 +1,26 @@
+{
+  "dirname": "ex/corrige_media",
+  "full_resource": {
+    "dirname": "ex/corrige_media",
+    "files": [
+      {
+        "category": "public",
+        "content": "- output: |\n    Nota 1: 10.0\n    Nota 2:  5.0\n    Média :  7.5\n  name: exemplo\n  input:\n",
+        "mode": "ro",
+        "name": "public_tests.yaml"
+      },
+      {
+        "content": "{\n  \"tests\": [],\n  \"title\": \"Corrige Média\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 4922123095113728,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 4922123095113728,
+  "key": "4922123095113728",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

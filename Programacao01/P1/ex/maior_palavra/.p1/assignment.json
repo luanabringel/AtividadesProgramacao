@@ -1,0 +1,26 @@
+{
+  "dirname": "ex/maior_palavra",
+  "full_resource": {
+    "dirname": "ex/maior_palavra",
+    "files": [
+      {
+        "category": "public",
+        "content": "- input: |\n    tv\n    casebre\n    rede\n    petisco\n    ---\n    abacate\n    renda\n    ---\n    anta\n    cabide\n    olhar\n    ---\n    bicicleta\n    camisola\n    macaco\n    canavial\n    ---\n    fim\n  output: |\n    Conjunto 4: bicicleta (9 letras)\n\n- input: |\n    casa\n    bola\n    ---\n    ---\n    fim\n  output: |\n    Conjunto 1: casa (4 letras)\n",
+        "mode": "ro",
+        "name": "public_tests.yaml"
+      },
+      {
+        "content": "{\n  \"tests\": [],\n  \"title\": \"Conjunto com Maior Palavra\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 5769596999041024,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 5769596999041024,
+  "key": "5769596999041024",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

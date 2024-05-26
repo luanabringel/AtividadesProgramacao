@@ -1,0 +1,41 @@
+- input: |
+    pr0gL
+    Progr#m0
+  output: |
+    'r' coincidente na posição 2
+    'g' coincidente na posição 4
+    Senha não alterada
+
+- input: |
+    P1th0n
+    J0v0
+  output: |
+    Senha alterada com sucesso
+
+- input: |
+    p1thon
+    j1va
+  output: |
+    '1' coincidente na posição 2
+    Senha não alterada
+
+-input: |
+    Python
+    Javo
+    Programa
+  output: |
+    Senha alterada com sucesso
+
+- input: |
+    p#thon
+    j#v4
+  output: |
+    '#' coincidente na posição 2
+    Senha não alterada
+
+- input: |
+     
+     
+  output: |
+    ' ' coincidente na posição 1
+    Senha não alterada

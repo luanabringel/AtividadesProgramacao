@@ -1,0 +1,26 @@
+{
+  "dirname": "u5/media_criminal",
+  "full_resource": {
+    "dirname": "u5/media_criminal",
+    "files": [
+      {
+        "category": "public",
+        "content": "- input: |\n    100.0\n    77 72 65\n    101 110\n    fim\n  output: |\n    101 110\n\n",
+        "mode": "ro",
+        "name": "public_tests.yaml"
+      },
+      {
+        "content": "{\n  \"tests\": [],\n  \"title\": \"Acima da média (Criminalidade)\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 4518643482230784,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 4518643482230784,
+  "key": "4518643482230784",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

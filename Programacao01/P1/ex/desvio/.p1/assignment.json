@@ -1,0 +1,26 @@
+{
+  "dirname": "ex/desvio",
+  "full_resource": {
+    "dirname": "ex/desvio",
+    "files": [
+      {
+        "category": "public",
+        "content": "- input: |\n    2.0\n    4.0\n    9.6\n    5.0\n  output: |\n    -0.2\n\n- input: |\n    2.0\n    4.0\n    9.6\n    5.4\n  output: |\n    0.2\n\n",
+        "mode": "ro",
+        "name": "public_tests.yaml"
+      },
+      {
+        "content": "{\n  \"tests\": [],\n  \"title\": \"Desvio\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 6098389596897280,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 6098389596897280,
+  "key": "6098389596897280",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

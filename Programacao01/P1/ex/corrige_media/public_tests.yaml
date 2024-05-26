@@ -1,0 +1,6 @@
+- output: |
+    Nota 1: 10.0
+    Nota 2:  5.0
+    Média :  7.5
+  name: exemplo
+  input:

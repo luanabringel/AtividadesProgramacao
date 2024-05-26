@@ -1,0 +1,26 @@
+{
+  "dirname": "u6/split_simp",
+  "full_resource": {
+    "dirname": "u6/split_simp",
+    "files": [
+      {
+        "category": "public",
+        "content": "from undertst import split_simplificado\n\ndef test_simples():\n    assert split_simplificado('um exemplo') == ['um','exemplo']\n    \ndef test_exemplo():\n    assert split_simplificado('um exemplo maior') == ['um','exemplo','maior']\n\ndef test_exemplo():\n    assert split_simplificado('duaspalavras') == ['duaspalavras']\n",
+        "mode": "r",
+        "name": "test_public.py"
+      },
+      {
+        "content": "{\n  \"ignore\": [\n    \"test_public.py\",\n    \"test_acceptance.py\"\n  ],\n  \"tests\": [],\n  \"title\": \"Split Simplificado\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 6536651662688256,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 6536651662688256,
+  "key": "6536651662688256",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

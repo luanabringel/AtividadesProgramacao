@@ -1,0 +1,39 @@
+{
+  "dirname": "u3/controle_qualidade",
+  "full_resource": {
+    "dirname": "u3/controle_qualidade",
+    "files": [
+      {
+        "category": "public",
+        "content": "- input: |\n    4.5\n    1.0\n  output: |\n    77.8% do peso do produto é de água congelada.\n    Produto não conforme.\n\n- input: |\n    10.0\n    9.8\n  output: |\n    2.0% do peso do produto é de água congelada.\n    Produto qualis A.\n\n- input: |\n    10.0\n    9.3\n  output: |\n    7.0% do peso do produto é de água congelada.\n    Produto em conformidade.\n\n",
+        "mode": "ro",
+        "name": "public_tests.yaml"
+      },
+      {
+        "content": "{\n  \"tests\": [],\n  \"title\": \"Controle de Qualidade\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      },
+      {
+        "_at": "2022-06-02T03:21:39Z",
+        "_author": "luana.leite@ccc.ufcg.edu.br",
+        "_ip": "45.229.174.59",
+        "_revision": 3,
+        "answer": true,
+        "category": "public",
+        "content": "peso_antes = float(input())\npeso_depois = float(input())\nporcentagem = (peso_antes - peso_depois) * 100 / peso_antes\n\nif 5 <= porcentagem <= 10:\n    print(f\"{porcentagem:.1f}% do peso do produto é de água congelada.\")\n    print(\"Produto em conformidade.\")\n\nelif 5 > porcentagem:\n    print(f\"{porcentagem:.1f}% do peso do produto é de água congelada.\")\n    print(\"Produto qualis A.\")\n\nelse:\n    print(f\"{porcentagem:.1f}% do peso do produto é de água congelada.\")\n    print(\"Produto não conforme.\")\n\n",
+        "hash": "43ee00c711c74596fab422c243715886b804e645",
+        "mode": "rw",
+        "name": "controle_qualidade.py",
+        "op": "add"
+      }
+    ],
+    "iid": 6080141086162944,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 6080141086162944,
+  "key": "6080141086162944",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

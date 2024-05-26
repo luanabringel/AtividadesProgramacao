@@ -1,0 +1,9 @@
+import math
+def diff_simetricos(valores):
+    lista_de_valores = []
+    for valor in range(len(valores) // 2):
+        lista_de_valores.append(valores[valor] - valores[-1 - valor])
+    
+    if len(valores) % 2 != 0:
+        lista_de_valores.append(valores[len(valores) // 2])
+    return lista_de_valores

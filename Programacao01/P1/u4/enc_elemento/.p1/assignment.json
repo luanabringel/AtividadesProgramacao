@@ -1,0 +1,26 @@
+{
+  "dirname": "u4/enc_elemento",
+  "full_resource": {
+    "dirname": "u4/enc_elemento",
+    "files": [
+      {
+        "category": "public",
+        "content": "- input: |\n    7\n    1 5 3 2 88 9 2\n  output: |\n    não\n\n- input: |\n    7\n    1 5 7 2 88 9 2\n  output: |\n    sim\n\n",
+        "mode": "ro",
+        "name": "public_tests.yaml"
+      },
+      {
+        "content": "{\n  \"tests\": [],\n  \"title\": \"Encontra Elemento\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 5503289934217216,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 5503289934217216,
+  "key": "5503289934217216",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

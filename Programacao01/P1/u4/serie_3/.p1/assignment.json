@@ -1,0 +1,26 @@
+{
+  "dirname": "u4/serie_3",
+  "full_resource": {
+    "dirname": "u4/serie_3",
+    "files": [
+      {
+        "category": "public",
+        "content": "- input: \"\"\n  output: |\n    302\n    299\n    296\n    293\n    290\n    287\n    284\n    281\n    278\n    275\n    272\n    269\n    266\n    263\n    260\n    257\n    254\n    251\n    248\n    245\n    242\n    239\n    236\n    233\n    230\n    227\n    224\n    221\n    218\n    215\n    212\n    209\n    206\n    203\n    200\n    197\n    194\n    191\n    188\n    185\n    182\n    179\n    176\n    173\n    170\n    167\n    164\n    161\n    158\n    155\n    152\n    149\n    146\n    143\n    140\n    137\n    134\n    131\n    128\n    125\n    122\n    119\n    116\n    113\n    110\n    107\n    104\n    101\n    98\n    95\n    92\n    89\n    86\n    83\n    80\n    77\n    74\n    71\n    68\n    65\n    62\n    59\n    56\n    53\n    50\n    47\n    44\n    41\n    38\n    35\n    32\n    29\n    26\n    23\n    20\n    17\n    14\n    11\n    8\n    5\n    2\n    -1\n    -4\n    -7\n    -10\n\n",
+        "mode": "ro",
+        "name": "public_tests.yaml"
+      },
+      {
+        "content": "{\n  \"tests\": [],\n  \"title\": \"Séries 3\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 5863786672029696,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 5863786672029696,
+  "key": "5863786672029696",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

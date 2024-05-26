@@ -1,0 +1,26 @@
+{
+  "dirname": "u6/quantos_comeram",
+  "full_resource": {
+    "dirname": "u6/quantos_comeram",
+    "files": [
+      {
+        "category": "public",
+        "content": "from undertst import quantos_comeram\n\ndef test_exemplo_1():\n    assert quantos_comeram(10, [10, 10]) == 10\n\ndef test_exemplo_2():\n    assert quantos_comeram(12, [10, 10]) == 10\n\ndef test_exemplo_3():\n    assert quantos_comeram(2, [10, 10]) == 0\n\ndef test_exemplo_4():\n    assert quantos_comeram(5, [2, 3, 5]) == 5\n",
+        "mode": "r",
+        "name": "test_public.py"
+      },
+      {
+        "content": "{\n  \"ignore\": [\n    \"test_public.py\",\n    \"test_acceptance.py\"\n  ],\n  \"tests\": [],\n  \"title\": \"Quantos Comeram?\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 5734235593768960,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 5734235593768960,
+  "key": "5734235593768960",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

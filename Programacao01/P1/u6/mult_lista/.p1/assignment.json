@@ -1,0 +1,26 @@
+{
+  "dirname": "u6/mult_lista",
+  "full_resource": {
+    "dirname": "u6/mult_lista",
+    "files": [
+      {
+        "category": "public",
+        "content": "from undertst import multiplica_lista\n\ndef test_exemplo():\n    nomes = ['joao', 'pedro']\n    assert multiplica_lista(2, nomes) == ['joao', 'pedro', 'joao', 'pedro']\n\ndef test_exemplo():\n    nomes = [2]\n    assert multiplica_lista(1, nomes) == [2]\n",
+        "mode": "r",
+        "name": "test_public.py"
+      },
+      {
+        "content": "{\n  \"ignore\": [\n    \"test_public.py\",\n    \"test_acceptance.py\"\n  ],\n  \"tests\": [],\n  \"title\": \"Multiplica Lista\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 6553373501292544,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 6553373501292544,
+  "key": "6553373501292544",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

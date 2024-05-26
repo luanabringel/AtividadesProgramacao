@@ -1,0 +1,20 @@
+- input: |
+    2.0
+  output: |
+    12.57
+
+- input: |
+    0
+  output: |
+    0.00
+
+- input: |
+    100.0
+  output: |
+    31415.93
+
+- input: |
+    4
+  output: |
+    50.27
+

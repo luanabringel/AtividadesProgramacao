@@ -1,0 +1,32 @@
+{
+  "dirname": "u3/funcao_hello",
+  "full_resource": {
+    "dirname": "u3/funcao_hello",
+    "files": [
+      {
+        "category": "public",
+        "content": "from undertst import hello\n\n\ndef test_retorna_str():\n    assert type(hello()) is str\n\n\ndef test_tem_hello():\n    assert \"hello\" in hello().lower()\n",
+        "mode": "ro",
+        "name": "test_.py"
+      },
+      {
+        "category": "public",
+        "content": "# Função _Hello, World!_\n\nEscreva a função `hello`. A função deve ser _pura_ e deve\napenas retornar uma string com a mensagem `Hello, World!`.\n",
+        "mode": "ro",
+        "name": "README.md"
+      },
+      {
+        "content": "{\n  \"tests\": [],\n  \"title\": \"Função Hello, World!\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 5321635986931712,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 5321635986931712,
+  "key": "5321635986931712",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

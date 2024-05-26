@@ -1,0 +1,26 @@
+{
+  "dirname": "u3/categoria_nadador",
+  "full_resource": {
+    "dirname": "u3/categoria_nadador",
+    "files": [
+      {
+        "category": "public",
+        "content": "- input: |\n    Antônio\n    5\n  output: |\n    Antônio, 5 anos, Infantil A.\n\n- input: |\n    André\n    9\n  output: |\n    André, 9 anos, Infantil B.\n\n- input: |\n    Eduardo\n    3\n  output: |\n    Eduardo, 3 anos, Não pode competir.\n\n",
+        "mode": "ro",
+        "name": "public_tests.yaml"
+      },
+      {
+        "content": "{\n  \"tests\": [],\n  \"title\": \"categoria\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 6335204782243840,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 6335204782243840,
+  "key": "6335204782243840",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

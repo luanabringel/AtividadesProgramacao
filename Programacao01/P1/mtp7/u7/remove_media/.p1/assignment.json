@@ -1,0 +1,26 @@
+{
+  "dirname": "u7/remove_media",
+  "full_resource": {
+    "dirname": "u7/remove_media",
+    "files": [
+      {
+        "category": "public",
+        "content": "from undertst import remove_abaixo_media\n\ndef test_exemplo1():\n    l1 = [1, 1, 1, 1]\n    remove_abaixo_media(l1)\n    assert l1 == [1, 1, 1, 1]\n\ndef test_exemplo2():\n    l1 = [1, 1, 1, -1, 1]\n    remove_abaixo_media(l1)\n    assert l1 == [1, 1, 1, 1]\n\n",
+        "mode": "r",
+        "name": "test_public.py"
+      },
+      {
+        "content": "{\n  \"ignore\": [\n    \"test_public.py\",\n    \"test_acceptance.py\"\n  ],\n  \"tests\": [],\n  \"title\": \"Remove abaixo da média\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 6497803012407296,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 6497803012407296,
+  "key": "6497803012407296",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

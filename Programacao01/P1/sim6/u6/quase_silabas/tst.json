@@ -1,0 +1,8 @@
+{
+  "ignore": [
+    "acceptance_tests.py",
+    "public_tests.py"
+  ],
+  "tests": [],
+  "title": "Quase Fonemas"
+}

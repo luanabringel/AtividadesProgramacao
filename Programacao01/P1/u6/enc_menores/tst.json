@@ -1,0 +1,8 @@
+{
+  "ignore": [
+    "test_acceptance.py",
+    "test_public.py"
+  ],
+  "tests": [],
+  "title": "Encontra Menores"
+}

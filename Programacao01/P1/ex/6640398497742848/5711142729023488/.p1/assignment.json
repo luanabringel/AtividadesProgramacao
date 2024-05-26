@@ -1,0 +1,38 @@
+{
+  "dirname": null,
+  "full_resource": {
+    "dirname": null,
+    "files": [
+      {
+        "category": "public",
+        "content": "import re\nfrom pathlib import Path\n\nimport pytest\n\nARQUIVO = \"questoes.txt\"\nRESPOSTAS = [\"str\", \"float\", \"1.5\", \"int\", \"1\", \"str\", \"2.02.0\", \"float\", \"4.0\"]\n\n@pytest.fixture\ndef texto():\n    try:\n        return open(ARQUIVO).read()\n    except:\n        return \"\"\n\n@pytest.fixture\ndef tem_token(texto):\n    def tem_token(token):\n        return re.search(r\"\\b\" + token + r\"\\b\", texto)\n    return tem_token\n\n@pytest.mark.parametrize(\"token\", RESPOSTAS)\ndef test_q1(token, tem_token):\n    assert tem_token(token)\n\ndef test_tem_10_mais_10(texto):\n    return \"10 + 10\" in texto\n",
+        "mode": "ro",
+        "name": "test_.py"
+      },
+      {
+        "category": "public",
+        "content": "# Valor Resultante\n\n> Esta questão aborda avaliação de expressões. Você deve fazer o checkout,\n> responder as questões no arquivo baixado e fazer o commit das suas respostas.\n",
+        "mode": "ro",
+        "name": "README.md"
+      },
+      {
+        "category": "public",
+        "content": "Escreva o tipo e o valor associado às variáveis de cada programa abaixo:\n1. a = \"10 + 10\"\n2. b = 3 / 2\n3. c = 3 // 2\n4. d = 2 * \"2.0\"\n5. e = 16**(1/2)   \n",
+        "mode": "rw",
+        "name": "questoes.txt"
+      },
+      {
+        "content": "{\n  \"tests\": [],\n  \"title\": \"Valor Resultante\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 5711142729023488,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 5711142729023488,
+  "key": "5711142729023488",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

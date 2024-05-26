@@ -1,0 +1,26 @@
+{
+  "dirname": "u4/min_media_max",
+  "full_resource": {
+    "dirname": "u4/min_media_max",
+    "files": [
+      {
+        "category": "public",
+        "content": "- input: |\n    3\n    5\n    1\n    7\n  output: |\n    5 5 5.00 5\n    1 1 3.00 5\n    7 1 4.33 7\n\n- input: |\n    2\n    3\n    7\n  output: |\n    3 3 3.00 3\n    7 3 5.00 7\n\n- input: |\n    4\n    3\n    70\n    2\n    1\n  output: |\n    3 3 3.00 3\n    70 3 36.50 70\n    2 2 25.00 70\n    1 1 19.00 70\n",
+        "mode": "ro",
+        "name": "public_tests.yaml"
+      },
+      {
+        "content": "{\n  \"tests\": [],\n  \"title\": \"Mínimo, média e máximo\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 6447376258564096,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 6447376258564096,
+  "key": "6447376258564096",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

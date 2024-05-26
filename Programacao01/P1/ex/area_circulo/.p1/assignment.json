@@ -1,0 +1,26 @@
+{
+  "dirname": "ex/area_circulo",
+  "full_resource": {
+    "dirname": "ex/area_circulo",
+    "files": [
+      {
+        "category": "public",
+        "content": "- input: |\n    2.0\n  output: |\n    12.57\n\n- input: |\n    0\n  output: |\n    0.00\n\n- input: |\n    100.0\n  output: |\n    31415.93\n\n- input: |\n    4\n  output: |\n    50.27\n\n",
+        "mode": "ro",
+        "name": "public_tests.yaml"
+      },
+      {
+        "content": "{\n  \"tests\": [],\n  \"title\": \"Area Círculo\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 5311635424018432,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 5311635424018432,
+  "key": "5311635424018432",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

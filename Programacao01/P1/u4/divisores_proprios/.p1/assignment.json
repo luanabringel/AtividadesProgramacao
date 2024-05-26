@@ -1,0 +1,26 @@
+{
+  "dirname": "u4/divisores_proprios",
+  "full_resource": {
+    "dirname": "u4/divisores_proprios",
+    "files": [
+      {
+        "category": "public",
+        "content": "- input: |\n    12\n  output: |\n    1\n    2\n    3\n    4\n    6\n\n",
+        "mode": "ro",
+        "name": "public_tests.yaml"
+      },
+      {
+        "content": "{\n  \"tests\": [],\n  \"title\": \"Divisores\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 6166809046679552,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 6166809046679552,
+  "key": "6166809046679552",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

@@ -1,0 +1,6 @@
+- input: |
+    mandinga juazeiro cajueiro sequoia pirilampo
+  output: |
+    Quantidade de pentavogalicas: 3
+
+

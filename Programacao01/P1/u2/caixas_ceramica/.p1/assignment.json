@@ -1,0 +1,26 @@
+{
+  "dirname": "u2/caixas_ceramica",
+  "full_resource": {
+    "dirname": "u2/caixas_ceramica",
+    "files": [
+      {
+        "category": "public",
+        "content": "- input: |\n    1.5\n    3.0\n    3.0\n    2.5\n  output: |\n    Capacidade de revestimento? \n    == Dados do vão a revestir ==\n    Comprimento? Largura? Altura? \n    == Resultados ==\n    Área total a revestir: 39.0 m2\n    Número de caixas: 26\n\n",
+        "mode": "ro",
+        "name": "public_tests.yaml"
+      },
+      {
+        "content": "{\n  \"tests\": [],\n  \"title\": \"Caixas de Cerâmica\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 4977483428397056,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 4977483428397056,
+  "key": "4977483428397056",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

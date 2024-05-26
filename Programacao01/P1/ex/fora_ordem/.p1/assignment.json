@@ -1,0 +1,26 @@
+{
+  "dirname": "ex/fora_ordem",
+  "full_resource": {
+    "dirname": "ex/fora_ordem",
+    "files": [
+      {
+        "category": "public",
+        "content": "- input: |\n    dado empresa tatu\n  output: |\n    em ordem\n\n- input: |\n    casa dado abacate tatu\n  output: |\n    fora de ordem: 3\n\n",
+        "mode": "ro",
+        "name": "public_tests.yaml"
+      },
+      {
+        "content": "{\n  \"tests\": [],\n  \"title\": \"Fora de Ordem\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 4849857535672320,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 4849857535672320,
+  "key": "4849857535672320",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

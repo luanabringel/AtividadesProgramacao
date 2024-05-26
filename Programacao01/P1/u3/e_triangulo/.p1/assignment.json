@@ -1,0 +1,32 @@
+{
+  "dirname": "u3/e_triangulo",
+  "full_resource": {
+    "dirname": "u3/e_triangulo",
+    "files": [
+      {
+        "category": "public",
+        "content": "- input: |\n    2\n    2\n    2\n  output: |\n    triangulo valido. 6\n\n- input: |\n    20\n    10\n    5\n  output: |\n    triangulo invalido.\n\n",
+        "mode": "ro",
+        "name": "public_tests.yaml"
+      },
+      {
+        "category": "public",
+        "content": "{\n  \"quality\": [\n    {\n      \"cc\": 3,\n      \"pep8\": 0,\n      \"lloc\": 7,\n      \"vhalstead\": 103.61,\n      \"header\": 4\n    }\n  ]\n}",
+        "mode": "r",
+        "name": "qcheck.json"
+      },
+      {
+        "content": "{\n  \"tests\": [],\n  \"title\": \"É triangulo\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 5284226553348096,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 5284226553348096,
+  "key": "5284226553348096",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

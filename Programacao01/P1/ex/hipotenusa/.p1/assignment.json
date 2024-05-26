@@ -1,0 +1,26 @@
+{
+  "dirname": "ex/hipotenusa",
+  "full_resource": {
+    "dirname": "ex/hipotenusa",
+    "files": [
+      {
+        "category": "public",
+        "content": "- input: |\n    3.0\n    4.0\n  match: .*Cateto 1.*Cateto 2.*Hipotenusa.*5.0.*\n  ignore: case\n\n- input: |\n    15.0\n    20.0\n  match: .*Cateto 1.*Cateto 2.*Hipotenusa.*25.0.*\n  ignore: case\n\n- input: |\n    30.0\n    40.0\n  match: .*Cateto 1.*Cateto 2.*Hipotenusa.*50.0.*\n  ignore: case\n",
+        "mode": "ro",
+        "name": "public_tests.yaml"
+      },
+      {
+        "content": "{\n  \"tests\": [],\n  \"title\": \"Calculando a Hipotenusa\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 5040832417628160,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 5040832417628160,
+  "key": "5040832417628160",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

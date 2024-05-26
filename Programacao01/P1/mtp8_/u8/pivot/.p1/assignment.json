@@ -1,0 +1,26 @@
+{
+  "dirname": "u8/pivot",
+  "full_resource": {
+    "dirname": "u8/pivot",
+    "files": [
+      {
+        "category": "public",
+        "content": "from undertst import pivot\n\ndef test_exemplo_1():\n    numeros = [6, 4, 8, 1, 7, 3]\n    pivot(numeros)\n    assert numeros == [4, 1, 3, 6, 8, 7], numeros\n",
+        "mode": "r",
+        "name": "test_public.py"
+      },
+      {
+        "content": "{\n  \"tests\": [],\n  \"title\": \"Pivot\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 4881815594598400,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 4881815594598400,
+  "key": "4881815594598400",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

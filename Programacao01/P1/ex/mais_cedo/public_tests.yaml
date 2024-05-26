@@ -1,0 +1,5 @@
+- input: |
+    Gilson 07 15 23 Sonia 07 10 47 Guadalupe 07 12 21
+  output: |
+    Sonia
+

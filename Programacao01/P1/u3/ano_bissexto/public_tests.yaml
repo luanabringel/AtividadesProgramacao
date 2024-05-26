@@ -1,0 +1,10 @@
+- input: |
+    2020
+  output: |
+    2020 é bissexto
+
+- input: |
+    2011
+  output: |
+    2011 não é bissexto
+

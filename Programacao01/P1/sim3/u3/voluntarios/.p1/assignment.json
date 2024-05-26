@@ -1,0 +1,26 @@
+{
+  "dirname": "u3/voluntarios",
+  "full_resource": {
+    "dirname": "u3/voluntarios",
+    "files": [
+      {
+        "category": "public",
+        "content": "- input: |\n    jonas\n    jairo\n    marcos\n  output: |\n    jonas (2)\n\n- input: |\n    mateus\n    jonas\n    adriano\n  output: |\n    adriano (1)\n\n",
+        "mode": "ro",
+        "name": "public_tests.yaml"
+      },
+      {
+        "content": "{\n  \"tests\": [],\n  \"title\": \"Seleciona um Entre Três Voluntários\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 6018296644108288,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 6018296644108288,
+  "key": "6018296644108288",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

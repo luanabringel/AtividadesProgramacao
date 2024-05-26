@@ -1,0 +1,12 @@
+- input: |
+    85 45
+    35.0 40.0
+    -20 15
+    215 181
+  output: |
+    96.18cm
+    53.15cm
+    25.00cm
+    --
+    num disparos: 3
+    distancia media: 58.11cm

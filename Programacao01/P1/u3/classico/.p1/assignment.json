@@ -1,0 +1,32 @@
+{
+  "dirname": "u3/classico",
+  "full_resource": {
+    "dirname": "u3/classico",
+    "files": [
+      {
+        "category": "public",
+        "content": "- input: |\n    2\n    1\n  output: |\n    Campinense\n\n- input: |\n    2\n    2\n  output: |\n    Empate\n\n- input: |\n    2\n    4\n  output: |\n    Treze\n\n",
+        "mode": "ro",
+        "name": "public_tests.yaml"
+      },
+      {
+        "category": "public",
+        "content": "{\n  \"quality\": [\n    {\n      \"cc\": 3,\n      \"pep8\": 0,\n      \"lloc\": 9,\n      \"vhalstead\": 9.51,\n      \"header\": 0\n    }\n  ]\n}",
+        "mode": "r",
+        "name": "qcheck.json"
+      },
+      {
+        "content": "{\n  \"tests\": [],\n  \"title\": \"Clássico\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 6422342152486912,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 6422342152486912,
+  "key": "6422342152486912",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

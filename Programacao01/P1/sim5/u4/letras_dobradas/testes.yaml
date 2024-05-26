@@ -1,0 +1,40 @@
+- input: |
+    5
+    pizza
+    atum
+    coordenacao
+    martelo
+    costela
+  output: |
+    2 palavra(s) com letras dobradas:
+    pizza
+    coordenacao
+    ---
+    3 palavra(s) sem letras dobradas:
+    atum
+    martelo
+    costela
+
+- input: |
+    3
+    ciclista
+    aquario
+    medo
+  output: |
+    0 palavra(s) com letras dobradas:
+    ---
+    3 palavra(s) sem letras dobradas:
+    ciclista
+    aquario
+    medo
+
+- input: |
+    2
+    coordenacao
+    pizza
+  output: |
+    2 palavra(s) com letras dobradas:
+    coordenacao
+    pizza
+    ---
+    0 palavra(s) sem letras dobradas:

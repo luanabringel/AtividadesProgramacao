@@ -1,0 +1,26 @@
+{
+  "dirname": "u6/diff_simetricos",
+  "full_resource": {
+    "dirname": "u6/diff_simetricos",
+    "files": [
+      {
+        "category": "public",
+        "content": "from undertst import diff_simetricos\n\ndef test_exemplo_1():\n    lista1 = [2, 5, 3, 9]\n    assert diff_simetricos(lista1) == [-7, 2]\n    assert lista1 == [2, 5, 3, 9]\n\ndef test_exemplo_2():\n    lista2 = [2, 5, 3, 9, 4]\n    assert diff_simetricos(lista2) == [-2, -4, 3]\n    assert lista2 == [2, 5, 3, 9, 4]\n",
+        "mode": "r",
+        "name": "test_public.py"
+      },
+      {
+        "content": "{\n  \"ignore\": [\n    \"test_public.py\",\n    \"test_acceptance.py\"\n  ],\n  \"tests\": [],\n  \"title\": \"Diff Simétricos\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 6227271868219392,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 6227271868219392,
+  "key": "6227271868219392",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

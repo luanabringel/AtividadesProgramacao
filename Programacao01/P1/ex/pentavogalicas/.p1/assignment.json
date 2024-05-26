@@ -1,0 +1,26 @@
+{
+  "dirname": "ex/pentavogalicas",
+  "full_resource": {
+    "dirname": "ex/pentavogalicas",
+    "files": [
+      {
+        "category": "public",
+        "content": "- input: |\n    mandinga juazeiro cajueiro sequoia pirilampo\n  output: |\n    Quantidade de pentavogalicas: 3\n\n\n",
+        "mode": "ro",
+        "name": "public_tests.yaml"
+      },
+      {
+        "content": "{\n  \"tests\": [],\n  \"title\": \"Pentavogalicas\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 6363266034958336,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 6363266034958336,
+  "key": "6363266034958336",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

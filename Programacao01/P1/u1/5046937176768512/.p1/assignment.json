@@ -1,0 +1,38 @@
+{
+  "dirname": null,
+  "full_resource": {
+    "dirname": null,
+    "files": [
+      {
+        "category": "public",
+        "content": "import re\nfrom pathlib import Path\n\nimport pytest\n\nARQUIVO = \"questoes.txt\"\n\n@pytest.fixture\ndef texto():\n    try:\n        return open(ARQUIVO).read()\n    except:\n        return \"\"\n\ndef test_ha_arquivo():\n    assert Path(ARQUIVO).exists()\n\ndef test_q1(texto):\n    assert re.search(r\"\\bpwd\\b\", texto)\n\ndef test_q2(texto):\n    assert re.search(r\"\\bPATH\\b\", texto)\n\ndef test_q3(texto):\n    assert re.search(r\"\\bPS1\\b\", texto)\n\ndef test_q4(texto):\n    assert re.search(r\"\\bexit\\b\", texto)\n\ndef test_q5(texto):\n    assert re.search(r\"\\bid\\b\", texto)\n\ndef test_q6(texto):\n    assert re.search(r\"\\bps\\b\", texto)\n\ndef test_q7(texto):\n    assert re.search(r\"\\becho\\b\", texto)\n\ndef test_q8(texto):\n    assert re.search(r\"/home/.*/p1\", texto)\n\ndef test_q9(texto):\n    assert re.search(r\"\\bpip\\b\", texto)\n\ndef test_q10(texto):\n    assert re.search(r\".local/bin\", texto)\n",
+        "mode": "ro",
+        "name": "test_.py"
+      },
+      {
+        "category": "public",
+        "content": "# Uso do terminal\n\n> Esta questão é semelhante à de _Checkout e Commit_. A única\n> diferença é que não contém a orientação detalhada. Siga o mesmo\n> processo para fazê-la. Se for o caso, consulte a outra\n> atividade, para lembrar os passos. Um detalhe apenas: o `p1\n> login` não é mais necessário por algum tempo. Quando for\n> necessário, o comando `p1` informará que você precisa fazer\n> novo `login`.\n\n",
+        "mode": "ro",
+        "name": "README.md"
+      },
+      {
+        "category": "public",
+        "content": "1. Qual o comando para imprimir o diretório corrente?\n2. Qual é a variável usada pelo shell para listar os diretórios em que deve buscar comandos?\n3. Qual a variável que controla o prompt?\n4. Qual o comando para sair do shell?\n5. Qual comando identifica o usuário?\n5. Qual comando lista os processos em execução?\n7. Qual comando \"imprime\" algo no terminal?\n8. Dê o caminho (pathname) completo do diretório desta atividade\n   em seu sistema de arquivos.\n9. Qual o comando de instalação de pacotes de Python?\n10. Em qual diretório o sistema de instalaçao de pacotes de\n    Python instala novos comandos?\n",
+        "mode": "rw",
+        "name": "questoes.txt"
+      },
+      {
+        "content": "{\n  \"tests\": [],\n  \"title\": \"Uso do Terminal\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 5046937176768512,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 5046937176768512,
+  "key": "5046937176768512",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

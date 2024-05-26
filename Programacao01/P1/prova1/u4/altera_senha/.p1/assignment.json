@@ -1,0 +1,26 @@
+{
+  "dirname": "u4/altera_senha",
+  "full_resource": {
+    "dirname": "u4/altera_senha",
+    "files": [
+      {
+        "category": "public",
+        "content": "- input: |\n    pr0gL\n    Progr#m0\n  output: |\n    'r' coincidente na posição 2\n    'g' coincidente na posição 4\n    Senha não alterada\n\n- input: |\n    P1th0n\n    J0v0\n  output: |\n    Senha alterada com sucesso\n",
+        "mode": "ro",
+        "name": "public_tests.yaml"
+      },
+      {
+        "content": "{\n  \"tests\": [],\n  \"title\": \"Altera Senha\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 4990024128921600,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 4990024128921600,
+  "key": "4990024128921600",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

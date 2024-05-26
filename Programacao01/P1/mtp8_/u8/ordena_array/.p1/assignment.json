@@ -1,0 +1,26 @@
+{
+  "dirname": "u8/ordena_array",
+  "full_resource": {
+    "dirname": "u8/ordena_array",
+    "files": [
+      {
+        "category": "public",
+        "content": "from undertst import ordena_tipos\n\ndef test_basico():\n    a = ['1a', '2', 'e', '4', '4.4', 'e6', '8']\n    assert ordena_tipos(a) == None\n    assert a == ['2', '4', '8', 'e', '1a', '4.4', 'e6']\n",
+        "mode": "r",
+        "name": "test_public.py"
+      },
+      {
+        "content": "{\n  \"ignore\": [\n    \"test_public.py\",\n    \"test_acceptance.py\"\n  ],\n  \"tests\": [],\n  \"title\": \"Ordena Tipos (array)\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 5007036909617152,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 5007036909617152,
+  "key": "5007036909617152",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

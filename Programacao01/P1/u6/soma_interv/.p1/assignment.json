@@ -1,0 +1,26 @@
+{
+  "dirname": "u6/soma_interv",
+  "full_resource": {
+    "dirname": "u6/soma_interv",
+    "files": [
+      {
+        "category": "public",
+        "content": "from undertst import soma_intervalo\n\ndef test_basico_1():\n    assert soma_intervalo(10, 10) == 10\n\ndef test_basico_2():\n    assert soma_intervalo(5, 15) == 110\n",
+        "mode": "r",
+        "name": "test_public.py"
+      },
+      {
+        "content": "{\n  \"ignore\": [\n    \"test_public.py\",\n    \"test_acceptance.py\"\n  ],\n  \"tests\": [],\n  \"title\": \"Soma Intervalo\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 6124704223985664,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 6124704223985664,
+  "key": "6124704223985664",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

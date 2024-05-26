@@ -1,0 +1,32 @@
+{
+  "dirname": "ex/resumo_passagem",
+  "full_resource": {
+    "dirname": "ex/resumo_passagem",
+    "files": [
+      {
+        "category": "public",
+        "content": "- input: |\n    1256BL\n    10:43\n    12A\n    B\n    70.00\n    100.00\n  output: |\n    ### Cartão de Embarque ###\n    Identificador do voo: 1256BL\n    Horário: 10:43\n    Assento: 12A\n    Portão: B\n    Total de Imposto: 30.0%\n",
+        "mode": "ro",
+        "name": "public_tests.yaml"
+      },
+      {
+        "category": "public",
+        "content": "identificador = input\nhorario = input\nassento = input\nportao = input\npreco_sem_imposto = float(input)\npreco_total = float(input)\n\nporcentagem_de_imposto = preco_total - preco_sem_imposto * 100 / preco_total\n\nprint('### Cartão de Embarque ###')\nprint('Identificador do voo: {}'.format(identificador))\nprint('Horário: {}'.format(horario))\nprint('Assento: {}'.format(assento))\nprint('Portão: {}'.format(portao))\nprint('Total de Imposto: {}%'.format(porcentagem_de_imposto))\n",
+        "mode": "ro",
+        "name": "original.py"
+      },
+      {
+        "content": "{\n  \"tests\": [],\n  \"title\": \"Resumo Passagem\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 5789860939956224,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 5789860939956224,
+  "key": "5789860939956224",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

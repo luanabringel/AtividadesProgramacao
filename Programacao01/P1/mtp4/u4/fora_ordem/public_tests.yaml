@@ -1,0 +1,10 @@
+- input: |
+    dado empresa tatu
+  output: |
+    em ordem
+
+- input: |
+    casa dado abacate tatu
+  output: |
+    fora de ordem: 3
+

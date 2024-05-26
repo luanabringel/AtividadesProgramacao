@@ -1,0 +1,45 @@
+{
+  "dirname": null,
+  "full_resource": {
+    "dirname": null,
+    "files": [
+      {
+        "category": "public",
+        "content": "# Conceitos\n\n> Esta questão aborda os principais conceitos no estudo introdutório de\n> programação. Você deve fazer o checkout, responder as questões no arquivo\n> baixado e fazer o commit das suas respostas. Note que a questão não possui\n> testes automáticos. \n",
+        "mode": "ro",
+        "name": "README.md"
+      },
+      {
+        "category": "public",
+        "content": "Use uma única palavra para cada definição abaixo:\n\n1. Conjunto de regras que determinam quais sentenças e quais programas estão corretamente escritos e podem ter, portanto, significados associados.\n\n2. Conjunto de regras que determinam como as sentenças de um programa devem ser interpretadas e executadas. Define, portanto, o significado dos programas.\n\n3. Nome dado a uma palavra (ou token) em um programa que representa um valor específico.\n\n4. Nome dado a uma sentença escrita na linguagem que combina literais, variáveis, operadores e funções, que expressa uma computação ou cálculo e que, quando avaliada, produz um novo valor.\n\n5. Nome dado a um comando da linguagem de programação que determina que uma expressão seja avaliada, que o valor resultante seja armazenado númemória e que seja associado a um nome para uso posterior no processo.",
+        "mode": "rw",
+        "name": "questoes.txt"
+      },
+      {
+        "content": "{\n  \"tests\": [],\n  \"extensions\": [\n    \".txt\"\n  ],\n  \"title\": \"Conceitos\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      },
+      {
+        "_at": "2022-05-16T15:40:40Z",
+        "_author": "luana.leite@ccc.ufcg.edu.br",
+        "_ip": "45.229.174.59",
+        "_revision": 1,
+        "answer": true,
+        "category": "public",
+        "content": "Use uma única palavra para cada definição abaixo:\n\n1. Conjunto de regras que determinam quais sentenças e quais programas estão corretamente escritos e podem ter, portanto, significados associados.\nsintaxe\n2. Conjunto de regras que determinam como as sentenças de um programa devem ser interpretadas e executadas. Define, portanto, o significado dos programas.\nsemântica\n3. Nome dado a uma palavra (ou token) em um programa que representa um valor específico.\nvariável\n4. Nome dado a uma sentença escrita na linguagem que combina literais, variáveis, operadores e funções, que expressa uma computação ou cálculo e que, quando avaliada, produz um novo valor.\ncomando\n5. Nome dado a um comando da linguagem de programação que determina que uma expressão seja avaliada, que o valor resultante seja armazenado númemória e que seja associado a um nome para uso posterior no processo.\ninput\n",
+        "hash": "c60dcaabc88e29e9563210e2ef0b1c65b5495686",
+        "mode": "rw",
+        "name": "questoes.txt",
+        "op": "add"
+      }
+    ],
+    "iid": 6640398497742848,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 6640398497742848,
+  "key": "6640398497742848",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

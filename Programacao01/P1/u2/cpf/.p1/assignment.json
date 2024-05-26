@@ -1,0 +1,26 @@
+{
+  "dirname": "u2/cpf",
+  "full_resource": {
+    "dirname": "u2/cpf",
+    "files": [
+      {
+        "category": "public",
+        "content": "- input: |\n    93623421869\n    99999999999\n    11111111111\n  name: test_name\n  output: |\n    936234218-69\n    15\n    999999999-99\n    18\n    111111111-11\n    2\n\n",
+        "mode": "ro",
+        "name": "public_tests.yaml"
+      },
+      {
+        "content": "{\n  \"tests\": [],\n  \"title\": \"Formata CPF\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 5549336295374848,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 5549336295374848,
+  "key": "5549336295374848",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

@@ -1,0 +1,22 @@
+- input: |
+    220
+    1500
+    220
+    1200
+    220
+    2200
+  output: |
+    condutor com maior corrente: 2
+    maior corrente: 183.33 mA
+
+- input: |
+    110
+    370000
+    110
+    220000
+    220
+    320000
+  output: |
+    condutor com maior corrente: 3
+    maior corrente: 687.50 µA
+

@@ -1,0 +1,26 @@
+{
+  "dirname": "u5/milheiro",
+  "full_resource": {
+    "dirname": "u5/milheiro",
+    "files": [
+      {
+        "category": "public",
+        "content": "- input: |\n    265\n    423\n    336\n  output: |\n    1024\n    341.33\n    1\n\n",
+        "mode": "ro",
+        "name": "public_tests.yaml"
+      },
+      {
+        "content": "{\n  \"tests\": [],\n  \"title\": \"Milheiro de Tijolos\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 6041262404665344,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 6041262404665344,
+  "key": "6041262404665344",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

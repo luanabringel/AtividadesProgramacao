@@ -1,0 +1,26 @@
+{
+  "dirname": "u5/pares_impares",
+  "full_resource": {
+    "dirname": "u5/pares_impares",
+    "files": [
+      {
+        "category": "public",
+        "content": "- input: |\n    1\n    2\n    3\n    fim\n\n  output: |\n    pares = 1\n    ímpares = 2\n    \n- input: |\n    23\n    32\n    41\n    8\n    fim\n\n  output: |\n    pares = 2\n    ímpares = 2\n",
+        "mode": "ro",
+        "name": "public_tests.yaml"
+      },
+      {
+        "content": "{\n  \"tests\": [],\n  \"title\": \"Pares e ímpares\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 6369779352862720,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 6369779352862720,
+  "key": "6369779352862720",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}

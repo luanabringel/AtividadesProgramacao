@@ -1,0 +1,26 @@
+{
+  "dirname": "u6/cpf",
+  "full_resource": {
+    "dirname": "u6/cpf",
+    "files": [
+      {
+        "category": "public",
+        "content": "from undertst import calcula_digitos_verificacao\n\ndef test_basico():\n    assert calcula_digitos_verificacao('153245875') == '40'\n",
+        "mode": "r",
+        "name": "test_public.py"
+      },
+      {
+        "content": "{\n  \"ignore\": [\n    \"test_public.py\",\n    \"test_acceptance.py\"\n  ],\n  \"tests\": [],\n  \"title\": \"Dígitos de Verificação do CPF\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 4954606754856960,
+    "index": null,
+    "user": "luana.leite@ccc.ufcg.edu.br"
+  },
+  "iid": 4954606754856960,
+  "key": "4954606754856960",
+  "site": "prog1",
+  "user": "luana.leite@ccc.ufcg.edu.br"
+}
