@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-04-25T01:03:29.871-0300</date>
+  <logger>LUANA BRINGEL LEITE</logger>
+  <level>FINE</level>
+  <message>File 121210141-LUANA BRINGEL LEITE.zip was received. It was sent by LUANA BRINGEL LEITE from IP 10.0.0.46 at 25-04-2023 01*03*29</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-04-25T12:12:56.795-0300</date>
+  <logger>LUANA BRINGEL LEITE</logger>
+  <level>FINE</level>
+  <message>File 121210141-LUANA BRINGEL LEITE.zip was received. It was sent by LUANA BRINGEL LEITE from IP 10.0.0.46 at 25-04-2023 12*12*56</message>
+</record>

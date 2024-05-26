@@ -1,0 +1,54 @@
+package adt.bst.extended;
+
+import adt.bst.BSTImpl;
+import adt.bst.BSTNode;
+
+/**
+ * Note que esta classe estende sua implementacao de BST (BSTImpl).
+ * Dependendo do design que voce use, sua BSTImpl precisa ter apenas funcionando
+ * corretamente o metodo insert para que voce consiga testar esta classe.
+ */
+public class FloorCeilBSTImpl extends BSTImpl<Integer> implements FloorCeilBST {
+
+	@Override
+	public Integer floor(Integer[] array, double numero) {
+		for (Integer value : array)
+			this.insert(value);
+
+		return this.recursiveFloor(this.root, numero, null);
+	}
+
+	private Integer recursiveFloor(BSTNode<Integer> current, double numero, Integer floor) {
+		if (!current.isEmpty()) {
+			if (numero > current.getData())
+				floor = this.recursiveFloor((BSTNode<Integer>) current.getRight(), numero, current.getData());
+			else if (numero < current.getData())
+				floor = this.recursiveFloor((BSTNode<Integer>) current.getLeft(), numero, floor);
+			else
+				floor = current.getData();
+		}
+
+		return floor;
+	}
+
+	@Override
+	public Integer ceil(Integer[] array, double numero) {
+		for (Integer value : array)
+			this.insert(value);
+
+		return this.recursiveCeil(this.root, numero, null);
+	}
+
+	private Integer recursiveCeil(BSTNode<Integer> current, double numero, Integer ceil) {
+		if (!current.isEmpty()) {
+			if (numero > current.getData())
+				ceil = this.recursiveCeil((BSTNode<Integer>) current.getRight(), numero, ceil);
+			else if (numero < current.getData())
+				ceil = this.recursiveCeil((BSTNode<Integer>) current.getLeft(), numero, current.getData());
+			else
+				ceil = current.getData();
+		}
+
+		return ceil;
+	}
+}
